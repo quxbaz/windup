@@ -1,0 +1,34 @@
+{
+  "name": "windup",
+  "version": "1.0.0",
+  "description": "Wind it up baby!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quxbaz/windup.git"
+  },
+  "author": "quxbaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quxbaz/windup/issues"
+  },
+  "homepage": "https://github.com/quxbaz/windup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "es6-promise": "^4.2.4",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --content-base=public --port=5000",
+    "test": "test",
+    "lint": "eslint src/ lib/ tests/ config/ --cache || true"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
