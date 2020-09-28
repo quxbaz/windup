@@ -57,6 +57,16 @@ var config = {
           ],
         },
       },
+
+      // // Shorter version. style/css loader syntax has too much nesting.
+      // {
+      //   test: /\.css$/,
+      //   use: [
+      //     'style-loader',
+      //     'css-loader?{"modules": {"localIdentName": "[path][name]__[local]"}}'
+      //   ]
+      // },
+
       // {
       //   test: /\.css$/,
       //   loader: 'style-loader',
